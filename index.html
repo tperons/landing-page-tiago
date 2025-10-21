@@ -214,7 +214,14 @@
                         encontre nas redes sociais.
                     </p>
 
-                    <form action="[URL_DO_SEU_SERVIÇO_DE_FORMULÁRIO]" method="POST">
+                    <form name="contato" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+
+                        <p style="display:none;">
+                            <label>
+                                Não preencha isto: <input name="bot-field" />
+                            </label>
+                        </p>
+
                         <div class="mb-3 text-start">
                             <label for="name" class="form-label">Seu Nome</label>
                             <input type="text" class="form-control" id="name" name="name" required>
