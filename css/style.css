@@ -1,0 +1,35 @@
+/* Cor roxa de destaque (baseada na sua preferência) */
+:root {
+    --custom-purple: #7b4590;
+}
+
+.text-purple {
+    color: var(--custom-purple);
+}
+
+.btn-purple {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--custom-purple);
+    --bs-btn-border-color: var(--custom-purple);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8a43a3;
+    --bs-btn-hover-border-color: #8a43a3;
+}
+
+/* Garante que a seção "Hero" ocupe a tela toda */
+.hero-section {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contraste sutil para os cards do projeto */
+.card {
+    background-color: var(--bs-tertiary-bg);
+    border: 1px solid var(--bs-border-color-translucent);
+}
+
+.nav-link.social-link {
+    font-size: 1.2rem;
+}
