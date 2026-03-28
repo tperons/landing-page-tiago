@@ -1,272 +1,529 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiago Peron - Full-Stack Java Developer Portfolio</title>
 
-    <title>Tiago Peron - Portfólio de Python Full-Stack</title>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5X2ZS7D6HD"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5X2ZS7D6HD"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-5X2ZS7D6HD');
+      gtag("config", "G-5X2ZS7D6HD");
     </script>
 
-    <meta name="description"
-        content="Tiago Peron, desenvolvedor Python Full-Stack com experiência em Django, Django REST Framework, Docker, HTML, CSS e React.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://tiagoperon.com.br/">
+    <meta
+      name="description"
+      content="Portfolio of Tiago Peron, a Full-Stack Java Developer with experience in Spring, Angular, Docker, and Software Architecture."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://tiagoperon.com.br/" />
 
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tiagoperon.com.br/">
-    <meta property="og:title" content="Tiago Peron - Portfólio de Python Full-Stack">
-    <meta property="og:description"
-        content="Tiago Peron, desenvolvedor Python Full-Stack com experiência em Django, Django REST Framework, Docker, HTML, CSS e React.">
-    <meta property="og:image" content="https://www.URLoficialdasuapagina.com.br/imagem-para-compartilhar.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tiagoperon.com.br/" />
+    <meta
+      property="og:title"
+      content="Tiago Peron - Full-Stack Java Developer"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio of Tiago Peron, a Full-Stack Java Developer with experience in Spring, Angular, Docker, and Software Architecture."
+    />
+    <meta
+      property="og:image"
+      content="https://tiagoperon.com.br/images/social-share-image.jpg"
+    />
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="icon" href="images/favicon.ico" type="image/png" />
 
     <script type="application/ld+json">
-    {
+      {
         "@context": "https://schema.org",
         "@type": "ProfilePage",
         "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://tiagoperon.com.br/"
+          "@type": "WebPage",
+          "@id": "https://tiagoperon.com.br/"
         },
-        "name": "Tiago Peron - Portfólio de Python Full-Stack",
-        "description": "Portfólio de Tiago Peron, desenvolvedor Python Full-Stack com experiência em Django, Django REST Framework, Docker, HTML, CSS e React.",
+        "name": "Tiago Peron - Full-Stack Java Developer",
+        "description": "Portfolio of Tiago Peron, a Full-Stack Java Developer with experience in Spring, Angular, Docker, and Software Architecture.",
         "url": "https://tiagoperon.com.br/",
         "author": {
-            "@type": "Person",
-            "name": "Tiago Peron",
-            "image": "https://tiagoperon.com.br/link-para-sua-foto.jpg",
-            "jobTitle": "Desenvolvedor Python Full-Stack",
-            "alumniOf": "[Nome da sua Universidade ou Bootcamp, se aplicável]",
-            "knowsAbout": [
-                "Python",
-                "Django",
-                "Django REST Framework",
-                "Docker",
-                "React",
-                "API REST",
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "sameAs": [
-                "https://www.linkedin.com/in/tperons/",
-                "https://github.com/tperons"
-            ]
+          "@type": "Person",
+          "name": "Tiago Peron",
+          "image": "https://tiagoperon.com.br/images/profile-photo.jpg",
+          "jobTitle": "Full-Stack Java Developer",
+          "alumniOf": "[Your University or Bootcamp Name]",
+          "knowsAbout": [
+            "Java",
+            "Spring Boot",
+            "Angular",
+            "Docker",
+            "Git",
+            "Software Architecture",
+            "RESTful APIs",
+            "HTML",
+            "CSS",
+            "TypeScript"
+          ],
+          "sameAs": [
+            "https://www.linkedin.com/in/tperons/",
+            "https://github.com/tperons"
+          ]
         }
-    }
+      }
     </script>
+  </head>
 
-</head>
-
-<body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#">Tiago Peron</a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#inicio">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projetos">Projetos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
-                    </li>
-
-                    <li class="nav-item ms-lg-3">
-                        <a class="nav-link social-link" href="https://www.linkedin.com/in/tperons/" target="_blank"
-                            rel="noopener noreferrer" title="LinkedIn">
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link social-link" href="https://github.com/tperons" target="_blank"
-                            rel="noopener noreferrer" title="GitHub">
-                            <i class="bi bi-github"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+  <body>
+    <!-- ──────────────── NAVBAR ──────────────────────────────────────── -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span>&lt;</span>Dev<span>/&gt;</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+          <ul class="navbar-nav gap-1">
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projetos">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <header id="inicio" class="hero-section text-center">
-        <div class="container">
-            <h1 class="display-3 fw-bold">Olá, eu sou <span class="text-purple">Tiago Peron</span></h1>
-            <p class="lead fs-3 fw-light mb-4">
-                Desenvolvedor Python Full-Stack
+    <!-- ──────────────── HERO ─────────────────────────────────────────── -->
+    <section id="hero">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <!-- left -->
+          <div class="col-lg-7 fade-up">
+            <p class="hero-label">Full-Stack Developer</p>
+            <h1 class="hero-headline">
+              <span class="line-1">From equations to</span><br />
+              <span class="line-2">business logic,</span><br />
+              <span class="line-3"
+                >code that solves.<span class="cursor-blink"></span
+              ></span>
+            </h1>
+            <p class="hero-sub">
+              Physics graduate with solid hands-on experience in administration,
+              translating business complexity into efficient, robust, and
+              maintainable code.
             </p>
-            <p class="fs-5 text-body-secondary col-md-8 mx-auto">
-                Sou um desenvolvedor estudante focado em aprender e construir soluções eficientes. Tenho experiência em
-                Python, Django e Docker e almejo transformar ideias em código.
-            </p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5">
-                <a href="#contato" class="btn btn-purple btn-lg px-4">Entrar em Contato</a>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#projetos" class="btn-primary-custom">
+                <i class="bi bi-grid-3x3-gap-fill me-1"></i> View Projects
+              </a>
+              <a href="#" class="btn-outline-custom">
+                <i class="bi bi-file-person me-1"></i> View Résumé
+              </a>
             </div>
+          </div>
+
+          <!-- right – decorative code block -->
+          <div class="col-lg-5 fade-up">
+            <div class="hero-code">
+              <pre><span class="ln">01</span><span class="kw">@Component</span>
+<span class="ln">02</span><span class="kw">public class</span> <span class="cls">Developer</span> {
+<span class="ln">03</span>
+<span class="ln">04</span>  <span class="kw">private final</span> <span class="cls">String</span> name   = <span class="str">"Tiago Peron"</span>;
+<span class="ln">05</span>  <span class="kw">private final</span> <span class="cls">String</span> degree = <span class="str">"Physics"</span>;
+<span class="ln">06</span>  <span class="kw">private final</span> <span class="cls">String</span> postgrad = <span class="str">"Software Engineering"</span>;
+<span class="ln">07</span>
+<span class="ln">08</span>  <span class="kw">private</span> <span class="cls">List</span>&lt;<span class="cls">String</span>&gt; stack = <span class="cls">List</span>.<span class="fn">of</span>(
+<span class="ln">09</span>    <span class="str">"Java"</span>, <span class="str">"Spring Boot"</span>,
+<span class="ln">10</span>    <span class="str">"Angular"</span>, <span class="str">"Docker"</span>
+<span class="ln">11</span>  );
+<span class="ln">11</span>
+<span class="ln">12</span>  <span class="kw">@Bean</span>
+<span class="ln">13</span>  <span class="kw">public</span> <span class="cls">Solution</span> <span class="fn">solve</span>(<span class="cls">Problem</span> problem) {
+<span class="ln">14</span>    <span class="cmt">// physics + business = clean code</span>
+<span class="ln">15</span>    <span class="kw">return</span> <span class="cls">SolutionBuilder</span>.<span class="fn">from</span>(problem)
+<span class="ln">16</span>      .<span class="fn">withAnalyticalMind</span>(<span class="kw">this</span>.degree)
+<span class="ln">17</span>      .<span class="fn">build</span>();
+<span class="ln">18</span>  }
+<span class="ln">19</span>}
+<span class="ln">20</span>
+<span class="ln">21</span><span class="cmt">// status: available for projects ✓</span></pre>
+            </div>
+          </div>
         </div>
-    </header>
-
-    <section id="projetos" class="py-5">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold">Projetos em Destaque</h2>
-                <p class="lead text-body-secondary">Uma seleção dos meus trabalhos.</p>
-            </div>
-
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-
-                <!-- Projeto -->
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="images/cars.webp" class="card-img-top" alt="[Nome do Projeto 1]">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold text-purple">Project Web Cars</h5>
-                            <p class="card-text">
-                                Este projeto é uma plataforma web full-stack desenhada para servir como a vitrine
-                                digital e sistema de gestão de inventário para uma concessionária de veículos seminovos.
-                            </p>
-
-                            <div class="mt-auto pt-3">
-                                <span class="badge text-bg-primary">Python</span>
-                                <span class="badge text-bg-info text-dark">Django</span>
-                                <span class="badge text-bg-secondary">Docker</span>
-                            </div>
-                        </div>
-                        <div class="card-footer d-flex justify-content-start gap-2">
-                            <a href="https://github.com/tperons/project-web-cars" target="_blank"
-                                rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm">
-                                <i class="bi bi-github"></i> Ver Código
-                            </a>
-                            <a href="https://cars.tiagoperon.com.br/" target="_blank" rel="noopener noreferrer"
-                                class="btn btn-outline-primary btn-sm">
-                                <i class="bi bi-box-arrow-up-right"></i> Ver Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="images/flix.webp" class="card-img-top" alt="[Nome do Projeto 1]">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold text-purple">Project API Flix</h5>
-                            <p class="card-text">
-                                Este projeto é uma API RESTful de backend, desenhada para servir como a espinha dorsal
-                                de uma aplicação de catálogo de filmes, como um serviço de streaming ou uma base de
-                                dados de cinema (similar ao IMDb).
-                            </p>
-
-                            <div class="mt-auto pt-3">
-                                <span class="badge text-bg-primary">Python</span>
-                                <span class="badge text-bg-info text-dark">Django REST Framework</span>
-                                <span class="badge text-bg-secondary">Docker</span>
-                            </div>
-                        </div>
-                        <div class="card-footer d-flex justify-content-start gap-2">
-                            <a href="https://github.com/tperons/project-api-flix" target="_blank"
-                                rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm">
-                                <i class="bi bi-github"></i> Ver Código
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
+      </div>
     </section>
 
-    <section id="contato" class="py-5 bg-dark-subtle">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="display-5 fw-bold">Vamos Conversar</h2>
-                    <p class="lead text-body-secondary mb-4">
-                        Estou disponível para novas oportunidades e parcerias. Preencha o formulário abaixo ou me
-                        encontre nas redes sociais.
-                    </p>
-
-                    <form name="contato" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-
-                        <p style="display:none;">
-                            <label>
-                                Não preencha isto: <input name="bot-field" />
-                            </label>
-                        </p>
-
-                        <div class="mb-3 text-start">
-                            <label for="name" class="form-label">Seu Nome</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        <div class="mb-3 text-start">
-                            <label for="email" class="form-label">Seu E-mail</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="mb-3 text-start">
-                            <label for="message" class="form-label">Mensagem</label>
-                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-purple btn-lg px-4">Enviar Mensagem</button>
-                    </form>
-                </div>
+    <!-- ──────────────── SOBRE ────────────────────────────────────────── -->
+    <section id="sobre">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6 fade-up">
+            <p class="section-tag">// about me</p>
+            <h2 class="section-title">
+              An <span>analytical</span> mind<br />at the service of code
+            </h2>
+            <div class="section-divider"></div>
+            <div class="about-card">
+              <p
+                style="
+                  font-size: 1rem;
+                  color: var(--text);
+                  margin-bottom: 1.25rem;
+                "
+              >
+                My background in
+                <strong style="color: var(--cyan)">Physics</strong> taught me to
+                decompose complex systems into tractable models — which is
+                exactly what I do when architecting software. Every requirement
+                is an equation that demands an elegant solution, not just a
+                functional one.
+              </p>
+              <p
+                style="
+                  font-size: 0.95rem;
+                  color: var(--muted);
+                  margin-bottom: 1.25rem;
+                "
+              >
+                My hands-on experience in
+                <strong style="color: var(--purple)"
+                  >administrative processes</strong
+                >
+                complements the technical side: I understand the real impact of
+                software decisions on productivity, costs, and operational
+                workflows. I don't just deliver code — I deliver process
+                clarity.
+              </p>
+              <p style="font-size: 0.95rem; color: var(--muted); margin: 0">
+                The result is software that communicates intent, stands the test
+                of time, and grows alongside the business.
+              </p>
             </div>
+          </div>
+
+          <div class="col-lg-6 fade-up">
+            <div class="row g-3">
+              <div class="col-6">
+                <div class="about-stat">
+                  <span class="num">∞</span>
+                  <span class="lbl">Intellectual curiosity</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="about-stat">
+                  <span class="num" style="color: var(--green)">2+</span>
+                  <span class="lbl">Years with Java & Spring</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="about-stat">
+                  <span class="num" style="color: var(--cyan)">100%</span>
+                  <span class="lbl">Focus on quality</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="about-stat">
+                  <span class="num" style="color: var(--pink)">∂x</span>
+                  <span class="lbl">Analytical thinking</span>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="about-stat">
+                  <span
+                    class="lbl"
+                    style="font-size: 0.88rem; color: var(--text)"
+                  >
+                    <i
+                      class="bi bi-mortarboard-fill me-2"
+                      style="color: var(--purple)"
+                    ></i>
+                    Physics Degree &nbsp;|&nbsp;
+                    <i
+                      class="bi bi-briefcase-fill mx-2"
+                      style="color: var(--cyan)"
+                    ></i>
+                    Administration Background
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <footer class="py-4 bg-dark text-center">
-        <div class="container">
-            <p class="mb-2 text-body-secondary">
-                &copy; 2025 Tiago Peron. Todos os direitos reservados.
-            </p>
-            <div>
-                <a class="nav-link d-inline-block p-2 text-body-secondary" href="https://www.linkedin.com/in/tperons/"
-                    target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                    <i class="bi bi-linkedin fs-4"></i>
-                </a>
-                <a class="nav-link d-inline-block p-2 text-body-secondary" href="https://github.com/tperons"
-                    target="_blank" rel="noopener noreferrer" title="GitHub">
-                    <i class="bi bi-github fs-4"></i>
-                </a>
-                <a class="nav-link d-inline-block p-2 text-body-secondary" href="mailto:tperons@gmail.com"
-                    title="E-mail">
-                    <i class="bi bi-envelope fs-4"></i>
-                </a>
-            </div>
+    <!-- ──────────────── SKILLS ───────────────────────────────────────── -->
+    <section id="skills">
+      <div class="container">
+        <div class="text-center mb-5 fade-up">
+          <p class="section-tag">// technical skills</p>
+          <h2 class="section-title">My core <span>stack</span></h2>
+          <div class="section-divider mx-auto"></div>
         </div>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
-</body>
+        <div class="row g-4 justify-content-center">
+          <!-- Java -->
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 fade-up">
+            <div class="skill-card">
+              <span class="icon" style="color: var(--orange)"
+                ><i class="bi bi-cup-hot-fill"></i
+              ></span>
+              <span class="name">Java</span>
+              <div class="level">
+                <div class="level-fill" style="--pct: 88%"></div>
+              </div>
+            </div>
+          </div>
 
+          <!-- Spring Boot -->
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 fade-up">
+            <div class="skill-card">
+              <span class="icon" style="color: var(--green)"
+                ><i class="bi bi-gear-wide-connected"></i
+              ></span>
+              <span class="name">Spring Boot</span>
+              <div class="level">
+                <div class="level-fill" style="--pct: 82%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Angular -->
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 fade-up">
+            <div class="skill-card">
+              <span class="icon" style="color: var(--red)"
+                ><i class="bi bi-shield-fill-check"></i
+              ></span>
+              <span class="name">Angular</span>
+              <div class="level">
+                <div class="level-fill" style="--pct: 75%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Git -->
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 fade-up">
+            <div class="skill-card">
+              <span class="icon" style="color: var(--pink)"
+                ><i class="bi bi-git"></i
+              ></span>
+              <span class="name">Git</span>
+              <div class="level">
+                <div class="level-fill" style="--pct: 90%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Docker -->
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 fade-up">
+            <div class="skill-card">
+              <span class="icon" style="color: var(--cyan)"
+                ><i class="bi bi-box-seam-fill"></i
+              ></span>
+              <span class="name">Docker</span>
+              <div class="level">
+                <div class="level-fill" style="--pct: 70%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SQL -->
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 fade-up">
+            <div class="skill-card">
+              <span class="icon" style="color: var(--purple)"
+                ><i class="bi bi-database-fill"></i
+              ></span>
+              <span class="name">SQL</span>
+              <div class="level">
+                <div class="level-fill" style="--pct: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ──────────────── PROJETOS ─────────────────────────────────────── -->
+    <section id="projetos">
+      <div class="container">
+        <div class="text-center mb-5 fade-up">
+          <p class="section-tag">// featured projects</p>
+          <h2 class="section-title">What I <span>build</span></h2>
+          <div class="section-divider mx-auto"></div>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <!-- Project 1: Smart Supply Management -->
+          <div class="col-md-6 col-lg-5 fade-up">
+            <div class="project-card">
+              <div class="project-card-header">
+                <span class="project-icon"
+                  ><i style="color: var(--purple)" class="bi bi-code-square"></i
+                ></span>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/tperons/spring-boot-rest-study"
+                    title="GitHub"
+                    ><i class="bi bi-github"></i
+                  ></a>
+                  <!-- <a href="#" title="Live Demo"><i class="bi bi-box-arrow-up-right"></i></a> -->
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">
+                  Spring REST Reference Architecture
+                </h3>
+                <p class="project-desc">
+                  A feature-rich Spring Boot REST API showcasing Clean
+                  Architecture, JWT RBAC security, file/data exports,
+                  Testcontainers, and complete Docker CI/CD pipelines.
+                </p>
+                <div>
+                  <span class="tech-badge badge-cyan">Java</span>
+                  <span class="tech-badge badge-green">Spring Boot</span>
+                  <span class="tech-badge badge-purple">PostgreSQL</span>
+                  <span class="tech-badge badge-orange">Docker</span>
+                  <span class="tech-badge badge-pink">Git</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Project Web Cars -->
+          <div class="col-md-6 col-lg-5 fade-up">
+            <div class="project-card">
+              <div class="project-card-header">
+                <span class="project-icon"
+                  ><i style="color: var(--purple)" class="bi bi-code-square"></i
+                ></span>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/tperons/project-web-cars"
+                    title="GitHub"
+                    ><i class="bi bi-github"></i
+                  ></a>
+                  <!-- <a href="#" title="Live Demo"><i class="bi bi-box-arrow-up-right"></i></a> -->
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Project Web Cars</h3>
+                <p class="project-desc">
+                  Full-featured system for automotive management: vehicle,
+                  customer, and service registration with a KPI dashboard and
+                  advanced search. REST architecture with responsive frontend
+                  and containerized deployment.
+                </p>
+                <div>
+                  <span class="tech-badge badge-cyan">Python</span>
+                  <span class="tech-badge badge-green">Django</span>
+                  <span class="tech-badge badge-purple">HTML</span>
+                  <span class="tech-badge badge-pink">CSS</span>
+                  <span class="tech-badge badge-orange">JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /row -->
+      </div>
+    </section>
+
+    <!-- ──────────────── CONTACT ──────────────────────────────────────── -->
+    <section id="contato">
+      <div class="container fade-up">
+        <p class="section-tag">// contact</p>
+        <h2 class="section-title" style="margin-bottom: 0.75rem">
+          Let's <span>talk?</span>
+        </h2>
+        <div class="section-divider mx-auto"></div>
+
+        <p class="contact-tagline">
+          Open to freelance projects, full-time opportunities, and technical
+          collaborations. Drop me a message — I reply fast. ⚡
+        </p>
+
+        <a
+          href="mailto:tperons@gmail.com"
+          class="btn-primary-custom mb-5"
+          style="font-size: 0.9rem"
+        >
+          <i class="bi bi-envelope-fill me-2"></i
+          ><span
+            class="__cf_email__"
+            data-cfemail="e59c8a90978088848c89a5809d8488958980cb868a88"
+            >[email&#160;protected]</span
+          >
+        </a>
+
+        <div class="mt-4">
+          <a
+            href="https://linkedin.com/in/tperons"
+            target="_blank"
+            class="social-link"
+            title="LinkedIn"
+          >
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/tperons"
+            target="_blank"
+            class="social-link"
+            title="GitHub"
+          >
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            <span style="color: var(--purple)">Tiago Peron</span> ©
+            <span id="current-year"></span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
