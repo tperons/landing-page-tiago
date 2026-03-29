@@ -643,10 +643,21 @@ footer {
 
 /* ─── Responsive tweaks ─────────────────────────────────────────── */
 @media (max-width: 768px) {
-  .hero-code {
-    display: none;
-  }
   #hero {
     padding-top: 5rem;
+  }
+  .hero-code {
+    padding: 1rem 0.85rem;
+    font-size: 0.8rem;
+    line-height: 1.65;
+    /* overflow-x: auto; */
+  }
+  .hero-code pre {
+    min-width: 0;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .hero-code .ln {
+    margin-right: 0.75rem;
   }
 }
