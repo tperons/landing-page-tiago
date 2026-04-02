@@ -65,3 +65,16 @@ sections.forEach((s) => navObserver.observe(s));
 
 // ── Auto year ─────────────────────────────────────────────────────
 document.getElementById("current-year").textContent = new Date().getFullYear();
+
+const startYear = 2025;
+const currentYear = new Date().getFullYear();
+
+// ── Auto Experience Years ─────────────────────────────────────────
+let experienceYears = currentYear - startYear;
+if (experienceYears < 1) {
+  experienceYears = 1;
+}
+const experienceElement = document.getElementById("java-experience");
+if (experienceElement) {
+  experienceElement.textContent = experienceYears + "+";
+}
